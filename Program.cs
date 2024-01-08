@@ -9,7 +9,7 @@ nokia.ReceberLigacao();
 nokia.InstalarAplicativo("Whatsapp");
 
 //Instânciando a classe contato e chamando os métodos adicionar e listar contato.
-Contato contato = new Contato("teste", "99999999");
+Contato contato = new Contato("Joao", "99999999");
 nokia.AdicionarContato(contato);
 nokia.ListarContatos();
 
@@ -17,7 +17,7 @@ nokia.ListarContatos();
 nokia.AdicionarContato(contato);
 
 //Instânciando um novo contato e chamando os métodos adicionar e listar contato
-contato = new Contato("teste2", "888888888");
+contato = new Contato("Maria", "888888888");
 nokia.AdicionarContato(contato);
 nokia.ListarContatos();
 
@@ -34,7 +34,7 @@ Console.WriteLine("\n\n");
  iphone.InstalarAplicativo("Telegram");
 
 //Instânciando a classe contato e chamando os métodos adicionar e listar contato.
-contato = new Contato("teste3", "77777777");
+contato = new Contato("Pedro", "77777777");
 iphone.AdicionarContato(contato);
 iphone.ListarContatos();
 
@@ -42,7 +42,7 @@ iphone.ListarContatos();
 iphone.AdicionarContato(contato);
 
 //Instânciando um novo contato e chamando os métodos adicionar e listar contato
-contato = new Contato("teste4", "55555555");
+contato = new Contato("Angelica", "55555555");
 iphone.AdicionarContato(contato);
 iphone.ListarContatos();
 
